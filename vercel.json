@@ -5,10 +5,10 @@
   "framework": "nextjs",
   "functions": {
     "api/index.py": {
-      "runtime": "python3.11",
-      "maxDuration": 60
+      "runtime": "now-python@1.0.0"
     }
-  },
+  }
+},
   "rewrites": [
     {
       "source": "/api/:path*",
