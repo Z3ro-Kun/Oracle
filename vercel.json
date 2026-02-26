@@ -5,7 +5,8 @@
   "framework": "nextjs",
   "functions": {
     "api/index.py": {
-      "runtime": "now-python@1.0.0"
+      "runtime": "python3.11",
+      "maxDuration": 60
     }
   },
   "rewrites": [
